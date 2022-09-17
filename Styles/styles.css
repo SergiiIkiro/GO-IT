@@ -1,0 +1,104 @@
+body {font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: E5E5E5;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.main_content{
+    background-color: aliceblue;
+}
+
+
+
+.about {
+    margin-left: 40px;
+    
+}
+.projects {
+    margin-left: 40px;
+}
+
+.work {
+     
+    padding: 100px 40px 50px 20px;
+}
+.project_title{
+    font-size: 25px;
+    color: rgb(41, 92, 233);
+}
+
+
+
+.education {
+    
+}
+
+.sidebar{
+    background-color: rgb(27, 27, 187);
+    padding-top: 40px;
+     
+}
+
+.photo {
+    margin-bottom: 50px;
+
+}
+
+.sidebar_title{
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.contacts {
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.contact_type{
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-right: 10px;
+
+}
+
+.contact_link {
+    color: #565e6a;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+   
+}
+.tech_skills{
+    color: #ffff;
+    padding: 0;
+    margin-left: 20px;
+}
+
+    
+.tech_skills_item{
+    color: yellow;
+}
+
+.tech_skills_text{
+    color: white;
+}
+.soft_skills{
+    color: #ffff;
+    padding: 0;
+    margin-left: 20px;
+}
