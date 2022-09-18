@@ -86,15 +86,7 @@ body{font-family: 'Montserrat', sans-serif;
     color: #000000;
     margin-bottom: 10px;
 }
-.institute{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color: #FB6D3A;
-    margin-bottom: 11px;
 
-}
 .organisation{
     font-style: normal;
     font-weight: 700;
@@ -171,6 +163,7 @@ body{font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     line-height: 20px;
     color: #FB6D3A;
+    margin-bottom: 10px;
    
 }
 .sidebar{
