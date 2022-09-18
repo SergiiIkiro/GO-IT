@@ -1,56 +1,187 @@
-body {font-family: 'Montserrat', sans-serif;
+body{font-family: 'Montserrat', sans-serif;
+    background-color: E5E5E5;
 }
 
-.main {
+.main{
     display: flex;
     flex-direction: row-reverse;
-    background-color: E5E5E5;
     width: 1200px;
     margin: 0 auto;
 }
 
-
-
 .main_content{
     background-color: aliceblue;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.1);
+    padding:  105px 90px;
 }
 
-
-
-.about {
-    margin-left: 40px;
-    
+.about{ 
+    margin-bottom: 40px;   
 }
-.projects {
-    margin-left: 40px;
+.about_position{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 20px;
+ 
 }
-
-.work {
+.about_name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.about_description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 400px;
+}
+.projects{
+    margin-bottom: 50px;
      
-    padding: 100px 40px 50px 20px;
 }
-.project_title{
-    font-size: 25px;
-    color: rgb(41, 92, 233);
+ 
+.project_item{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+.project, 
+.project_link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.project_link{
+    margin-left: 10px;
+
+}
+.project_brackets{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+.work{
+    margin-bottom: 10px;
+     
+}
+.work_position{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.institute{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin-bottom: 11px;
+
+}
+.organisation{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
 }
 
-
-
-.education {
+.period{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+}
+.line{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+     color: #333232;
+}
+.worklist{
+    padding: 0;
+    margin-left: 15px;
+}
+.worklist_item{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 24px;
+    color: #595959;
+}
+.project_success{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 24px;
+    color: #595959;
+}
+.title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.projects_list{
+    padding: 0;
+    margin-left: 15px;
+}
+.education{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 10px;
     
 }
-
+.management{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.institute{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+   
+}
 .sidebar{
-    background-color: rgb(27, 27, 187);
+    background-color: #1E2939;
     padding-top: 40px;
      
 }
-
-.photo {
+.photo{
     margin-bottom: 50px;
 
 }
-
 .sidebar_title{
     color: rgb(255, 255, 255);
     font-style: normal;
@@ -59,12 +190,10 @@ body {font-family: 'Montserrat', sans-serif;
     line-height: 27px;
     margin-bottom: 10px;
 }
-
-.contacts {
+.contacts{
     margin-left: 40px;
     margin-bottom: 50px;
 }
-
 .contact_type{
     color: rgb(255, 255, 255);
     font-style: normal;
@@ -74,7 +203,6 @@ body {font-family: 'Montserrat', sans-serif;
     margin-right: 10px;
 
 }
-
 .contact_link {
     color: #565e6a;
     font-style: normal;
@@ -94,9 +222,12 @@ body {font-family: 'Montserrat', sans-serif;
     color: yellow;
 }
 
+
 .tech_skills_text{
     color: white;
 }
+
+
 .soft_skills{
     color: #ffff;
     padding: 0;
