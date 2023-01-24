@@ -37,7 +37,7 @@ bird.right(90)
 bird.pendown()
 bird.color("Black")
 
-bird.fillcolor("Black")
+bird.fillcolor("Blue")
 
 bird.begin_fill()
 bird.circle(15, 360)
